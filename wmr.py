@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 
 # Path to Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r'<path_to_tesseract_executable>'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Read the image
 image = cv2.imread('w1.png')
